@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page HTML CSS | Codehal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="loginForm">
+            <h2>Giriş</h2>
+            <div class="input-group">
+                <span class="icon">
+                    <ion-icon name="person"></ion-icon>
+                </span>
+                <input type="text" id="username" placeholder="Kullanıcı Adı" required>
+            </div>
+            <div class="input-group">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" id="password" placeholder="Şifre" required>
+            </div>
+            <div class="forgot-pass">
+                <a href="#">Şifreni mi unuttun ?</a>
+            </div>
+            <button type="submit" class="btn">Giriş Yap</button>
+            <div class="sign-link">
+                <p>Hesabınız yok mu ? <a href="#" class="register-link">Kayıt Ol</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="script.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
